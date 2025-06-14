@@ -1,0 +1,37 @@
+{
+    "name": "raccoon-cleaner",
+    "version": "1.0.0",
+    "description": "A tiny raccoon-powered clear-input widget.",
+    "author": "Jacob Otto",
+    "license": "MIT",
+    "type": "module",
+  
+    "main": "dist/raccoon-cleaner.js",
+    "module": "dist/raccoon-cleaner.js",
+    "files": [
+      "dist",
+      "README.md",
+      "LICENSE"
+    ],
+  
+    "scripts": {
+      "dev": "npx http-server -c-1 -o /demo",
+      "build": "rollup -c",
+      "watch": "rollup -c -w",
+      "postbuild": "cp src/raccoon-cleaner.css dist/"
+    },
+  
+    "keywords": [
+      "input",
+      "widget",
+      "clear",
+      "raccoon",
+      "javascript"
+    ],
+  
+    "devDependencies": {
+      "@rollup/plugin-node-resolve": "^15.2.3",
+      "@rollup/plugin-terser": "^0.4.4",
+      "rollup": "^4.15.0"
+    }
+  }

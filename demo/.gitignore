@@ -1,0 +1,11 @@
+# Build output
+/dist
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Editor / OS junk
+.vscode/
+.DS_Store
+Thumbs.db
