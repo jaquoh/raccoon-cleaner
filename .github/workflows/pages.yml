@@ -16,7 +16,7 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm run build      # creates dist/
-      - run: cp -r demo site/  # copy demo
+      - run: cp -r demo site/demo/  # copy demo
       - run: cp dist/* site/   # copy built JS/CSS next to demo
       - run: cp demo/demo-redirect.html site/index.html      # root redirect → /demo/
       - name: Deploy
