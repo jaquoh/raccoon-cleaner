@@ -6,7 +6,7 @@ In fact this whole readme is 100% written with recycled characters from input fi
 This tiny, dependency-free “clear-input” widget replaces the usual **×** with a
 trash-can button and a delightful raccoon that drags your text away.
 
-[Live demo](demo/index.html)
+[Live demo](https://jaquoh.github.io/raccoon-cleaner/demo/)
 
 ## Features
 * **Drop‑in** — add a single class or call one line of JS.  
