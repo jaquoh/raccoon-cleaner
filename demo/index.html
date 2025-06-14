@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>raccoon-cleaner.js - Live Demo</title>
+
+  <!-- Raccoon Cleaner styles (path is relative to /demo) -->
+  <link rel="stylesheet" href="../dist/raccoon-cleaner.css">
+
+  <style>
+    body{
+      font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width:42rem;
+      margin:4rem auto;
+      padding:0 1rem;
+      line-height:1.5;
+      box-sizing:border-box;   /* NEW -- prevents 100%‑width input from overflowing */
+    }
+    h1{font-size:2rem;margin-bottom:1.5rem;text-align:center;}
+    .demo-field{
+      width:100%;
+      font-size:1.15rem;
+      padding:.65rem .9rem;
+    }
+    footer{margin-top:3rem;font-size:.9rem;color:#666;text-align:center;}
+  </style>
+</head>
+<body>
+
+  <h1>raccoon-cleaner.js demo 🦝</h1>
+
+  <input
+    type="text"
+    class="raccoon-cleaner demo-field"
+    placeholder="Type something, then click the trash can …"
+  />
+
+  <p>
+    This input is powered by the
+    <strong>raccoon-cleaner</strong> widget. Type a few words, then click the
+    <em>trash‑can</em> button on the right to watch the diligent trash‑panda
+    haul your text away.
+  </p>
+
+  <!-- Raccoon Cleaner script (ES‑module) -->
+  <script type="module" src="../dist/raccoon-cleaner.js"></script>
+
+  <footer>
+    © 2025 • <a href="https://github.com/jaquoh/raccoon-cleaner" target="_blank" rel="noopener noreferrer">GitHub repo</a>
+  </footer>
+</body>
+</html>
