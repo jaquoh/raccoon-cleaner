@@ -17,8 +17,9 @@ jobs:
       - run: npm ci
       - run: npm run build                # creates dist/
       - run: mkdir -p site/demo
+      - run: mkdir -p site/dist
       - run: cp -r demo/*  site/demo/     # demo now at /demo/
-      - run: cp dist/*    site/demo/      # JS/CSS next to demo page
+      - run: cp -r dist/*  site/dist/      # JS/CSS at /dist/
       - run: cp demo/demo-redirect.html site/index.html   # root redirect → /demo/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
