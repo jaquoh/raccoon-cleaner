@@ -3,10 +3,11 @@ The little raccoon that is happy to collect everything you have declared as "tra
 It's not, it's still eatible or reusable, it's precious.
 In fact this whole readme is 100% written with recycled characters from input fields all over the internet.
 
-This tiny, dependency-free “clear-input” widget replaces the usual **×** with a
-trash-can button and a delightful raccoon that drags your text away.
+This tiny, dependency-free “clear-input” widget replaces the usual **×** with a trash-can button and a delightful raccoon that drags your text away.
 
-[Live demo](https://jaquoh.github.io/raccoon-cleaner/demo/)
+<img src="./demo/demo.gif" height="auto" style="border-radius:12px">
+
+[→ Live demo](https://jaquoh.github.io/raccoon-cleaner/demo/)
 
 ## Features
 * **Drop‑in** — add a single class or call one line of JS.  
